@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Quicksand:wght@700&display=swap');
+
+body{
+    background-image: url(../src/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cuadro{
+    background-color: #007f67;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+}
+
+.cerrar_s{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;   
+    box-shadow: 2px 2px black;
+}
+
+.cerrar_s:hover{
+    background-color: #04b393;
+}
+
+.cerrar{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cuadro h1{
+    font-family: 'Quicksand', sans-serif;  
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+    text-align: center;
+}
